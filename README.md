@@ -36,7 +36,6 @@ Accepted by **ECCV 2026 (ECCV26)**
 - Our analysis reveals that multi-view VLMs allocate more pronounced attention to task-related views in deeper layers and exhibit dynamic information requirements, providing insights to guide method design.
 - We propose MVPruner, which dynamically adjusts pruning ratios across different views in an online manner and adaptively retains important tokens according to the model’s dynamic information requirements.
 - Experimental results demonstrate that our method achieves a superior efficiency–performance trade-off. With 10% of visual tokens retained, our method maintains accuracy of 98.0%, 98.5%, and 94.5%, outperforming the second-best method by 2.6%, 0.8% and 3.5%, achieving 3.80×, 4.97× and 3.95× speedup in the prefilling stage on DriveLMM-o1, DriveLM and MAPLM, respectively.
-- The released code preserves the original DriveMM/LLaVA/Transformers loading path for straightforward reproduction.
 
 <p align="center">
   <img src="./assets/ana.png" alt="MVPruner ana" width="850px">
