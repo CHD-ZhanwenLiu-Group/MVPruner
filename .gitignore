@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+output/
+logs/
+wandb/
+runs/
+
+ckpt/
+checkpoints/
+project_checkpoints/
+debug_checkpoints/
+
+*.log
+*.tmp
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.codex_ssh_tmp/
+
+# Old hard-coded 75% MVPruner variant. The active implementation is now
+# selected by --pruning-ratio in scripts/inference.py.
+transformers/src/transformers/models/llama/modeling_llama_div_ada_task_hir_v1_maplmvv14vv4vv5_ablation_secondalloc_2v2_refinevv2_vv2vv5_0p75_nosoft.py
