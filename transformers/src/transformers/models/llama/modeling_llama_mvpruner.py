@@ -662,8 +662,8 @@ class LlamaDecoderLayer(nn.Module):
         super().__init__()
         self.hidden_size = config.hidden_size
         # config._attn_implementation = "eager"
-        if layer_idx  == 15:
-        # if True:
+        # if layer_idx  == 15:
+        if True:
             # 第二层 (若层编号从0开始，第1就是第二层)
             import copy
             local_config = copy.deepcopy(config)
