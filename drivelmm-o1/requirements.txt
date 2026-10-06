@@ -1,0 +1,16 @@
+accelerate<1
+bitsandbytes==0.42.0
+einops==0.6.1
+einops-exts==0.0.4
+huggingface_hub
+numpy==1.26.4
+opencv-python
+peft==0.10.0
+pillow
+sentencepiece==0.1.99
+timm==0.9.12
+tokenizers==0.15.1
+torch>=2
+torchvision>=0.15
+tqdm
+transformers==4.37.2
